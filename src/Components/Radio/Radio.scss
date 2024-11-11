@@ -1,0 +1,53 @@
+.radio {
+
+    padding: 2vw;
+    background-color: white;
+    color: rgb(95,95,213);
+    border-radius: 1vw;
+    text-shadow: 0.4vw 0.4vw 0.4vw rgba(0, 0, 0, 0.144);
+    transition: all 0.4s ease-in-out;
+    box-shadow: inset 0vw 0vw 1vw rgba(90, 88, 195, 0.905);
+    h1 {
+        font-size: 2.8rem;  
+        display: flex;
+        flex-direction: column;
+        gap: 0.9vw;
+    }
+    input {
+        position: relative;
+        top: 0.5vw;
+        right: 1vw;
+        width: 4vw;
+        height: 4vw;
+        accent-color: rgb(95,95,213);
+        font-size: 2rem;
+        background: rgb(95,95,213);
+        color: white;
+        border-radius: 1vw;
+        border: none;
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.561);
+        }
+        
+    }
+    label {
+        left: 2vw;
+        padding: 1vw;
+        padding-right: 17vw;
+        padding-left: 17vw;
+        border-radius: 1vw;
+        color: white;
+        background: rgb(95,95,213);
+        width: fit-content;
+        font-size: 3rem;
+        margin-right: 1vw;
+        margin-left: 1vw;
+        position: relative;
+    }
+    span {
+        margin-top: 1vw;
+
+        display: flex;
+        justify-content: space-around;
+    }
+}

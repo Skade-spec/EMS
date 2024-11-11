@@ -1,0 +1,26 @@
+.qualites {
+    width: 20vw;
+    height: 5vw;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: rgb(63, 61, 61);
+    padding: 1vw;
+    border-radius: 1vw;
+    box-shadow: inset 0vw 0vw 1vw rgba(0, 0, 8, 0.178);
+    
+    img {
+        margin: auto auto auto auto;
+        width: 3vw;
+        height: 3vw;
+        margin-left: 1vw;
+        filter: invert(1);
+    }
+    p {
+        padding: 0.2vw;
+        margin: auto auto auto auto;
+        text-align: center;
+        font-size: 1.5vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(207, 201, 201);
+    }
+}

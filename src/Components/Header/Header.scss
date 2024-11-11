@@ -1,0 +1,69 @@
+
+
+.header {
+    position: fixed;
+    z-index: 0;
+
+    img {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+}
+
+.header-inner {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    background-color: rgba(3, 3, 35, 0.668);
+
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20rem;
+        color: rgba(255, 255, 255, 0.735);
+        line-height: 70vh;
+        position: relative;
+        left: 10vw;
+    
+        a {
+            color: rgba(255, 255, 255, 0.735);
+        }
+    }
+}
+
+.sidebar {
+    transform: skew(-13deg);
+    width: 50vw;
+    left: 30vw;
+    position: relative;
+    height: 100vh;
+    background-color: rgb(82, 82, 155);
+    background: linear-gradient(13deg, rgb(56, 56, 113) 0%, rgb(82, 82, 155) 50%, rgb(97, 97, 173) 100%);
+    border-left: solid 3vw rgba(255, 255, 255, 0.735);
+    box-shadow: inset 1vw 1vw 3vw black;
+
+    p {
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 4.6rem;
+        color: rgba(255, 255, 255, 0.735);
+        top: 6vh;
+        margin: auto auto auto auto;
+        position: relative;
+        left: 3vw;
+        vertical-align:super;
+        line-height: 11vh;
+        text-indent: 1vw;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.735);
+            color: rgb(82, 82, 155);
+            box-shadow: -1vw 0vw 10vw rgb(82, 82, 155);
+            border-radius: 1vw;
+            cursor: pointer;
+        }
+        &:active {
+            user-select: none;
+        }
+    }
+}

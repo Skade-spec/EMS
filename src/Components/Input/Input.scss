@@ -1,0 +1,33 @@
+.input {
+
+    padding: 2vw;
+    background-color: white;
+    color: rgb(95,95,213);
+    border-radius: 1vw;
+    text-shadow: 0.4vw 0.4vw 0.4vw rgba(0, 0, 0, 0.144);
+    transition: all 0.4s ease-in-out;
+    box-shadow: inset 0vw 0vw 1vw rgba(90, 88, 195, 0.905);
+    h1 {
+        font-size: 2.8rem;  
+        display: flex;
+        flex-direction: column;
+        gap: 0.9vw;
+    }
+    input {
+        
+        font-size: 2rem;
+        background: rgb(95,95,213);
+        color: white;
+        padding: 1vw;
+        border-radius: 1vw;
+        box-shadow: inset 0vw 0vw 1vw rgba(0, 0, 0, 0.536);
+        border: none;
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.561);
+        }
+    }
+}
+
+#big {
+    height: 5vw;
+}

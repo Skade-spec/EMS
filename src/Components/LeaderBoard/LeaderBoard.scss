@@ -1,0 +1,62 @@
+.leaderboard {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2vw;
+    font-size: 1.4rem;
+
+    .main {
+        background-color: white;
+        padding: 2vw;
+        border-radius: 1vw;
+        height: fit-content;
+    box-shadow: inset 0vw 0vw 1vw rgba(90, 88, 195, 0.905);
+    min-width: 26.428vw;
+        .images {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .names {
+
+            h2 {
+        box-shadow: inset 0vw 0vw 1vw rgba(0, 0, 0, 0.536);
+                
+                color: white;
+                background-color: rgb(95,95,213);
+                border-radius: 0.5vw;
+                padding: 2vw;
+                text-align: center;
+                margin-top: 2vw;
+            }
+        }
+    }
+
+    .text {
+        color: white;
+        background-color: rgb(95,95,213);
+        border-radius: 0.5vw;
+        padding: 2vw;
+        text-align: center;
+    box-shadow: inset 0vw 0vw 1vw rgba(38, 38, 65, 0.905);
+    font-size: 3rem;
+    }
+
+    .side {
+        margin-top: 1vw;
+        background-color: white;
+        padding: 2vw;
+        border-radius: 1vw;
+    box-shadow: inset 0vw 0vw 1vw rgba(90, 88, 195, 0.905);
+    display: flex;
+        gap: 2vw;
+        h2 {
+            color: white;
+            background-color: rgb(95,95,213);
+            border-radius: 0.5vw;
+            padding: 2vw;
+        box-shadow: inset 0vw 0vw 1vw rgba(0, 0, 0, 0.536);
+        text-align: center;
+        }
+    }
+}
+

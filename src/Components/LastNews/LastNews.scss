@@ -1,0 +1,39 @@
+.news-block {
+    width: 27vw;
+    height: 30vw;
+    background-color: rgb(95,95,213);
+    display: grid;
+    grid-template-rows: 60% 40%;
+    color: rgb(222, 219, 215);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0.2vw 0.2vw 1vw black;
+    border-radius: 1vw;
+    box-shadow: inset 0vw 0vw 1vw rgba(38, 38, 65, 0.905);
+    img {
+        width: 100%;
+        height: 100%;   
+        border-radius: 1vw;
+    }
+    h2 {
+        text-align: start;
+        padding-left: 2vw;
+        padding-top: 2vw;
+        font-size: 1.8vw;
+    }
+    h3 {
+        margin-left: 2vw;
+        position: relative;
+        font-size: 1vw;
+    }
+    .icon {
+        filter: invert(1);
+        margin-left: 20vw;
+        position: relative;
+        width: 3.5vw;
+        height: 3.5vw;
+        background-color: rgba(255, 255, 255, 0.315);
+        border-radius: 4vw;
+        cursor: pointer;
+    }
+    
+}
