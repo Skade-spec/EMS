@@ -1,0 +1,103 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-wrap:balance;
+}
+
+main {
+    position: relative;
+    top: 100vh;
+    background: rgb(56,56,55);
+    background: linear-gradient(167deg, rgba(56, 56, 55, 0.671) 0%, rgb(44, 44, 46) 50%, rgb(43, 43, 88) 100%);
+    width: 100%;
+    height: max-content;
+    min-height: 100vh;
+    box-shadow: 1vw 0vw 20vw 3vw black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30vh;
+}
+
+.Stack {
+    overflow: visible;
+    width: 90vw;
+    min-height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 2vw;
+    text-wrap: wrap;
+    background-color: rgb(46, 42, 42);
+    padding: 3vw;
+    border-radius: 1vw;
+    margin-bottom: 3vh;
+    box-shadow: inset 0vw 0vw 1vw rgba(0, 0, 8, 0.178);
+
+    &:first-child {
+        margin-top: 5vh;
+    }
+}
+
+#up {
+    margin-top: -18vw;
+}
+
+.StackV {
+    overflow: visible;
+    width: 90vw;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    text-wrap: wrap;
+    flex-direction: column;
+    padding: 3vw;
+    border-radius: 2vw;
+    gap: 2vw;
+    background-color: rgb(46, 42, 42);
+    
+}
+
+.double {
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.inline {
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.sixty {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 1vw;
+}
+.text {
+    color: white;
+    background-color: rgb(95,95,213);
+    border-radius: 0.5vw;
+    padding: 2vw;
+    text-align: center;
+    box-shadow: inset 0vw 0vw 1vw rgba(38, 38, 65, 0.905);
+    font-size: 3rem;
+}
+
+.number {
+    color: white;
+    background-color: rgb(95,95,213);
+    border-radius: 0.5vw;
+    padding: 2vw;
+    text-align: start;
+    box-shadow: inset 0vw 0vw 1vw rgba(38, 38, 65, 0.905);
+    font-size: 3rem;
+}
