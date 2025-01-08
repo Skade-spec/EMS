@@ -56,6 +56,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     })
     .then(response => response.text())
     .then(data => {
+        modalWndow.style.display = 'none';
+        modalWindowBack.style.display = 'none';
     })
     .catch(error => {
         console.error('Error:', error);
